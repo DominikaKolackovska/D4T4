@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+        <!--<script src="main.js"></script>-->
+    </head>
+    <body>
+
+    <div class="logo">
+        <p class="logoaligncenter"><img alt="D4T4" src="https://i.ibb.co/R66mJR8/D4T4.jpg" width="300px" height="100px" ></p>
+    </div>
+
+    <div class="buttons text-center">
+        <div class="container">
+            <form method="POST">
+                 <div class="input-group mb-3">
+                        <input type="text" name="query" class="form-control">
+                 </div>
+                <p><button class="buttonsearch" type="submit" value="search" name="submit" btn-align="center" >D4T4 Search</button>
+                    </p>
+            </form>
+<!--            <a href="#" id="related-word"></a>-->
+
+        </div>
+        <div class="container2">
+            <button class="button2" type="button2" data-toggle="collapse" data-target="#navbarToggleExternalContent">Koncept</button>
+        </div>
+    </div>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-lightgrey">
+                <h5 class="text-grey" align="center" style="position:relative;top:0px">D4T4</h5>
+                <div class="anotacia" align="center" style="position:relative;top:0px"><span class="text-muted">Dáta ako informačný zdroj. Dáta ako moc. Princíp sugescie, manipulácie dát, informácií prostredníctvom digitálnej online platformy sa stáva fenoménom postfaktuálnej doby.<br>
+                    Proces kumulácie dát a ich analýza sa stáva determinantom výslednej vizualizácie, s ktorým súčasné vizuálne umenie otvorene pracuje. Manipulácia s dátami získavaných<br>
+                    online s premostením na klasické médium v kontexte dáta artového projektu. Záverečná práca bude tak o nekontrolovateľne „kontrolovateľnom“ priestore, implementáciou <br>
+                korelácie digitálneho a analógového média.</span></div>
+            </div>
+        </div>
+    <nav class="">
+    <button class="navbar-toggler" type="button" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+  </nav>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
